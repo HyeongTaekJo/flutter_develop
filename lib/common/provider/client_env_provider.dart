@@ -21,7 +21,7 @@ class ClientEnvNotifier extends StateNotifier<ClientEnvBase> {
   }
 
   Future<void> _init() async {
-    // 🔧 새 초기화 시작마다 Completer 새로 생성
+    //  새 초기화 시작마다 Completer 새로 생성
     _ready = Completer<ClientEnv>();
 
     try {
